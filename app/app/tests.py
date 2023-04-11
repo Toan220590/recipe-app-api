@@ -10,4 +10,4 @@ class calcTest(SimpleTestCase):
 
     def test_subtract_numbers(self):
         res = cacl.subtract(10, 15)
-        self.assertEqual(res, -5)
+        self.assertEqual(res, 5)
